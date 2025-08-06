@@ -1,0 +1,15 @@
+{
+  "name": "nicepods-ai-agent",
+  "version": "1.0.0",
+  "description": "AI agent for generating podcast scripts and audio.",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": "18"
+  },
+  "dependencies": {
+    "@google-cloud/vertexai": "^0.3.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "elevenlabs-node": "^2.0.3"
+  }
+}
