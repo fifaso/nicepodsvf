@@ -60,7 +60,6 @@ export default async function PodcastsPage() {
               */}
               <PodcastListClient 
                 initialPodcasts={podcasts || []} 
-                userProfile={profile} 
               />
             </TabsContent>
             {/* Aquí podrías añadir más TabsContent para filtrar por categoría en el futuro */}

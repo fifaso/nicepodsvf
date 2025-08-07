@@ -3,7 +3,6 @@
 
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs';
 import { cookies } from 'next/headers';
-// Importamos el componente visual de la landing page
 import LandingPageClient from '@/components/LandingPageClient';
 import type { Database } from '@/lib/database.types'; // Importamos los tipos de la DB
 
