@@ -501,7 +501,7 @@ export default function PodcastDisplayPage({ params }: { params: { id: string } 
 
             {/* Creation Details */}
             <div className="text-center text-sm text-gray-600 dark:text-gray-400 font-medium border-t pt-4">
-              Created on {formatDate(podcastData.createdAt)}
+              Created on {formatDate(podcastData.createdAt ?? "")}
             </div>
           </CardContent>
         </Card>
